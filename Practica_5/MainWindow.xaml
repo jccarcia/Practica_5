@@ -1,0 +1,32 @@
+﻿<Window x:Class="Practica_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica_5"
+        mc:Ignorable="d" Loaded="Window_Loaded">
+    <Grid>
+        <Grid>
+            <Grid.Background>
+                <ImageBrush ImageSource="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\teatro.jpg" Opacity="0.7"/>
+            </Grid.Background>
+            <Button x:Name="bt1" Content="Ir a sala" Margin="317,417,317,59"  Width="128" Background="#FFD8D8D8" Click="bt1_Click"/>
+
+        </Grid>
+        <Grid Margin="180,121,180
+              ,228">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="231*"/>
+                <ColumnDefinition Width="73*"/>
+            </Grid.ColumnDefinitions>
+            <ListBox Name="lbObras" Margin="-1,0,45,30" Grid.ColumnSpan="2">
+                <ListBoxItem>WWE vs RAW</ListBoxItem>
+                <ListBoxItem>El lazarillo de Torbe</ListBoxItem>
+                <ListBoxItem>La vida es una ******</ListBoxItem>
+                <ListBoxItem>Juanki potter y la piedra cuetosofal</ListBoxItem>
+            </ListBox>
+        </Grid>
+
+    </Grid>
+
+</Window>

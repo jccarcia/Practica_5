@@ -1,0 +1,111 @@
+﻿<Window x:Class="Practica_5.pag1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practica_5"
+        mc:Ignorable="d"
+        Title="pag1" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Label x:Name="lb1" Content="Nombre de la obra :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="66,77,0,0"/>
+        <Label x:Name="lb2" Content="Fecha :" HorizontalAlignment="Left" Margin="66,108,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lb3" Content="Hora :" HorizontalAlignment="Left" Margin="66,139,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="bt1" Content="Comprar" HorizontalAlignment="Left" Margin="66,266,0,0" VerticalAlignment="Top" Width="116" Click="bt1_Click" Background="#FFD42525"/>
+        <Button x:Name="bt2" Content="Reservar" HorizontalAlignment="Left" Margin="66,291,0,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="0.077,0.223" Click="bt2_Click" Background="#FFF0E50F"/>
+        <Button x:Name="bt3" Content="Vender" HorizontalAlignment="Left" Margin="66,316,0,0" VerticalAlignment="Top" Width="116" RenderTransformOrigin="-0.087,-0.429" Click="bt3_Click" Background="#FF33EE09"/>
+        <Grid HorizontalAlignment="Left" Height="259" Margin="356,88,0,0" VerticalAlignment="Top" Width="387">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="40*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="40*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="s25" VerticalAlignment="Top" Height="37" Click="s25_Click" Background="#FF39DE48" Margin="0,0,1,0">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png">
+                </Image>
+            </Button>
+            <Button x:Name="s29" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="37" Grid.Row="1" Click="s29_Click_1" Background="#FF39DE48">
+                <Image x:Name="s5" Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="37" Grid.Row="2" Click="s9_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s26" VerticalAlignment="Top" Height="37" Grid.Column="1" Click="s26_Click" Background="#FF39DE48">
+                <Image x:Name="s2" Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s30" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="37" Grid.Row="1" Grid.Column="1" Click="s30_Click" Background="#FF39DE48">
+                <Image x:Name="s6" Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s10" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="37" Grid.Row="2" Grid.Column="1" Click="s10_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s13" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="37" Grid.Row="3" Click="s13_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s19" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="37" Grid.Row="4" Click="s19_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s14" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="37" Grid.Column="1" Grid.Row="3" Click="s14_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="37" Grid.Row="4" Grid.Column="1" Click="s20_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s15" HorizontalAlignment="Right" VerticalAlignment="Top" Width="55" Height="37" Grid.Row="3" Grid.Column="1" Click="s15_Click" Background="#FF39DE48" Grid.ColumnSpan="2" Margin="0,0,0.4,0" Grid.RowSpan="2">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s21" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Height="37" Grid.Row="4" Grid.Column="2" Click="s21_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s22" HorizontalAlignment="Stretch" VerticalAlignment="Top" Width="Auto" Height="37" Grid.Row="4" Grid.Column="2" Click="s22_Click" Background="#FF39DE48" Grid.ColumnSpan="3" Margin="54.8,0.2,54.8,0" Grid.RowSpan="2">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s23" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="37" Grid.Row="4" Grid.Column="4" Click="s23_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s17" HorizontalAlignment="Right" VerticalAlignment="Top" Width="56" Height="37" Grid.Row="3" Grid.Column="4" Click="s17_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s12" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Height="38" Grid.ColumnSpan="2" Grid.Column="5" Grid.Row="1" Click="s12_Click" Background="#FF39DE48" Margin="0.2,37.2,0,0" Grid.RowSpan="2">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s32" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Height="37" Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" Click="s32_Click" Background="#FF39DE48" Margin="0.2,0.2,0,0">
+                <Image x:Name="s8" Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s11" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="38" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" Click="s11_Click" Background="#FF39DE48" Margin="0.4,37.2,0,0" Grid.RowSpan="2">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s18" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Height="37" Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="2" Click="s18_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s24" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Height="37" Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="2" Click="s24_Click" Background="#FF39DE48">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s31" HorizontalAlignment="Left" VerticalAlignment="Top" Width="55" Height="37" Grid.Row="1" Grid.Column="4" Click="s31_Click" Background="#FF39DE48" Grid.ColumnSpan="2" Margin="0.4,0.2,0,0">
+                <Image x:Name="s7" Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s27" VerticalAlignment="Top" Height="37" Grid.Column="4" Click="s27_Click" Background="#FF39DE48" Grid.ColumnSpan="2" Margin="0.4,0,55,0" Grid.RowSpan="2">
+                <Image x:Name="s3" Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s28" HorizontalAlignment="Left" VerticalAlignment="Top" Width="56" Height="37" Grid.Column="5" Grid.ColumnSpan="2" Click="s28_Click" Background="#FF39DE48" Margin="0.2,0,0,0" Grid.RowSpan="2">
+                <Image x:Name="s4" Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+            <Button x:Name="s16" HorizontalAlignment="Right" VerticalAlignment="Top" Width="56" Height="37" Grid.Row="3" Grid.Column="2" Click="s16_Click" Background="#FF39DE48" Grid.ColumnSpan="3" Margin="0,0,54.8,0" Grid.RowSpan="2">
+                <Image Source="D:\VisualStudio\repo\Practica_5\Practica_5\bin\Debug\silla.png"/>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Window>
